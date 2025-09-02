@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Naukowa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0; 
+            background: #f4f4f4;
+        }
+        header {
+            background: #3e4e6c;
+            color: white;
+            padding: 40px 20px 20px 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        h2 {
+            color: #3e4e6c;
+            margin-top: 35px;
+        }
+        footer {
+            text-align: center;
+            color: #888;
+            padding: 20px;
+            background: #eaeaea;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+        }
+        ul.articles {
+            list-style: none;
+            padding: 0;
+        }
+        ul.articles li {
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        @media (max-width: 600px) {
+            main { padding: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Strona Naukowa</h1>
+        <p>Prezentacja artykułów, badań i ciekawostek naukowych.</p>
+    </header>
+    <main>
+        <section>
+            <h2>O stronie</h2>
+            <p>Ta strona powstała, aby dzielić się wiedzą naukową i promować najnowsze osiągnięcia oraz badania.</p>
+        </section>
+        <section>
+            <h2>Artykuły i badania</h2>
+            <ul class="articles">
+                <li>
+                    <strong>Wpływ klimatu na rozwój roślin</strong><br>
+                    <span>Autor: dr Anna Kowalska, 2025</span>
+                </li>
+                <li>
+                    <strong>Nowe metody analizy DNA</strong><br>
+                    <span>Autor: dr Jan Nowak, 2024</span>
+                </li>
+                <li>
+                    <strong>Fizyka kwantowa w praktyce</strong><br>
+                    <span>Autor: dr Piotr Zieliński, 2025</span>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Kontakt</h2>
+            <p>Masz pytania? Skontaktuj się: <a href="mailto:naukowa@strona.pl">naukowa@strona.pl</a></p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Strona Naukowa. Wszelkie prawa zastrzeżone.
+    </footer>
+</body>
+</html>
